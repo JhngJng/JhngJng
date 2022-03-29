@@ -4,7 +4,6 @@ I'm Jihyeong Jung, undergraduate student of Department of Mathematical Sciences,
 ### Academic Interests
 * Few-Shot/Meta Learning on Graph Structured data
 * Machine Learnings on Graph Structured data
-* Developing Theoretically stable Machine Learning Framework
 
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
