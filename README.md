@@ -1,5 +1,5 @@
 ### About Me
-I'm Jihyeong Jung, undergraduate student of Department of Mathematical Sciences, KAIST👋
+Hi, I'm Jihyeong Jung. I'm an undergraduate student of Department of Mathematical Sciences, KAIST👋
 
 ### Academic Interests
 * Few-Shot/Meta Learning on Graph Structured data
