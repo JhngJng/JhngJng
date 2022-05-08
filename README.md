@@ -6,7 +6,8 @@ Hi, I'm Jihyeong Jung. I'm an undergraduate student of Department of Mathematica
 * Machine Learnings on Graph Structured data
 
 ### Education
-#### Korea Advanced Institute of Science and Technology(KAIST)
+* Korea Advanced Institute of Science and Technology(KAIST)
+  - B.S. in Mathematical Sciences (2017.02.-2022.08.)
 
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
