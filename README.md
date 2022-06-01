@@ -1,5 +1,6 @@
 ### About Me
 Hi, I'm Jihyeong Jung. I'm an undergraduate student of Department of Mathematical Sciences, KAIST👋
+I'm an undergraduate intern of DSAIL(Data Science and Artificial Intelligence Lab) currently.
 
 ### Academic Interests
 * Few-Shot/Meta Learning on Graph Structured data
