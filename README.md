@@ -1,5 +1,5 @@
 ### About Me
-Hi, I'm Jihyeong Jung. I'm an M.S. candidate of Department of Industrial & Systems Engineering, KAIST👋  
+Hi, I'm Jihyeong Jung. I'm a M.S. candidate of the Department of Industrial & Systems Engineering, KAIST👋  
 I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.ac.kr/professor/)
 
 ### Academic Interests
@@ -13,11 +13,11 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
 
 ### Work Experience
 * KAIST Freshmen Student Council
-  - _Member_ of the 13th student council <Garam> (2017.03.-2017.08.)
-  - _President_ of the 14th student council <Raon> (2017.08.-2018.08.)
-  - _Advisor_ of the 15th student council <Harang> (2018.08.-2019.02.)
+  - **_Member_** of the 13th student council <Garam> (2017.03.-2017.08.)
+  - **_President_** of the 14th student council <Raon> (2017.08.-2018.08.)
+  - **_Advisor_** of the 15th student council <Harang> (2018.08.-2019.02.)
 * [Data Science and Artificial Intelligence Lab(KAIST)](http://dsail.kaist.ac.kr/)
-  - _Undergraduate Intern_ (2021.06.-2022.08.)
+  - **_Undergraduate Intern_** (2021.06.-2022.08.)
 
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
