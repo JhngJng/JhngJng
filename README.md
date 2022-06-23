@@ -8,14 +8,14 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
 
 ### Education
 * Korea Advanced Institute of Science and Technology(KAIST)
-  - B.S. in Mathematical Sciences (2017.02.-2022.08.)
-  - M.S. candidate in Industrial & Systems Engineering (2022.08.-)
+  - _B.S._ in Mathematical Sciences (2017.02.-2022.08.)
+  - _M.S. candidate_ in Industrial & Systems Engineering (2022.08.-)
 
 ### Work Experience
 * KAIST Freshmen Student Council
-  - _Member of the 13th student council <Garam>_ (2017.03.-2017.08.)
-  - _President of the 14th student council <Raon>_ (2017.08.-2018.08.)
-  - _Advisor of the 15th student council <Harang>_ (2018.08.-2019.02.)
+  - _Member_ of the 13th student council <Garam> (2017.03.-2017.08.)
+  - _President_ of the 14th student council <Raon> (2017.08.-2018.08.)
+  - _Advisor_ of the 15th student council <Harang> (2018.08.-2019.02.)
 * [Data Science and Artificial Intelligence Lab(KAIST)](http://dsail.kaist.ac.kr/)
   - _Undergraduate Intern_ (2021.06.-2022.08.)
 
