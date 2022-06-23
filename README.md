@@ -1,6 +1,5 @@
 ### About Me
-Hi, I'm Jihyeong Jung. I'm an M.S. candidate of Department of Industrial & Systems Engineering, KAIST👋
-
+Hi, I'm Jihyeong Jung. I'm an M.S. candidate of Department of Industrial & Systems Engineering, KAIST👋  
 I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.ac.kr/professor/)
 
 ### Academic Interests
