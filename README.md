@@ -7,8 +7,8 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
 
 ### Education
 * Korea Advanced Institute of Science and Technology(KAIST)
-  - _B.S._ in Mathematical Sciences (2017.02.-2022.08.)
-  - _M.S. candidate_ in Industrial & Systems Engineering (2022.08.-)
+  - **_B.S._** in Mathematical Sciences (2017.02.-2022.08.)
+  - **_M.S. candidate_** in Industrial & Systems Engineering (2022.08.-)
 
 ### Work Experience
 * KAIST Freshmen Student Council
