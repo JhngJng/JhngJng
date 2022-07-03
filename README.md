@@ -1,5 +1,5 @@
-### About Me
-Hi, I'm Jihyeong Jung. I'm a M.S. candidate of the Department of Industrial & Systems Engineering, KAIST👋  
+### Hello Everyone!!
+I'm Jihyeong Jung, a M.S. candidate of the Department of Industrial & Systems Engineering, KAIST👋  
 I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.ac.kr/professor/), leading [KAIST Data Science & Artificial Intelligence Lab](http://dsail.kaist.ac.kr/)
 ### Academic Interests
 * Few-Shot/Meta Learning on Graph Structured data
@@ -17,6 +17,9 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
   - **_Advisor_** of the 15th student council <Harang> (2018.08.-2019.02.)
 * [Data Science and Artificial Intelligence Lab(KAIST)](http://dsail.kaist.ac.kr/)
   - **_Undergraduate Intern_** (2021.06.-2022.08.)
+  
+### Publications
+ I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
 
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
