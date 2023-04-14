@@ -8,18 +8,16 @@ folder: introduction
 ---
 
 
-{% include note.html content="This template is an example, so you don't have to follow this templates!" %}
+# **How to Train Your MAML to Excel in Few-Shot Classification** 
 
-# **Title** 
+이 리뷰에서 소개하는 논문, "How to Train Your MAML to Excel in Few-Shot Classification"은 Meta-learning에 대해 소개한다면 반드시 언급되는 Methodology인 Model-Agnostic Meta-Learning(MAML)[1]을 실험적으로 분석하고, 새로운 모델 Unicorn-MAML을 제시한 논문입니다.   
 
-Title of paper that you are going to write  
-
-## **1. Problem Definition**  
+## **1. Introduction**  
 
 Please write the problem definition on here  
 
 
-## **2. Motivation**  
+## **2. Preliminaries**  
 
 Please write the motivation of paper. The paper would tackle the limitations or challenges in each fields.
 
@@ -54,15 +52,15 @@ Please summarize the paper.
 It is free to write all you want. e.g, your opinion, take home message(오늘의 교훈), key idea, and etc.
 
 ---  
-## **Author Information**  
+## **Review Writer Information**  
 
-* Author name  
-    * Affiliation  
-    * Research Topic
+* 정지형 (Jihyeong Jung)  
+    * Master Student, Department of Industrial & Systems Engineering, KAIST  
+    * Few-shot learning with Meta-learning, Graph Neural Networks, etc.
 
 ## **6. Reference & Additional materials**  
 
 Please write the reference. If paper provides the public code or other materials, refer them.  
 
-* Github Implementation  
+* [Github Implementation(Official)](https://github.com/Han-Jia/UNICORN-MAML)
 * Reference  
