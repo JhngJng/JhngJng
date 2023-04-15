@@ -110,8 +110,8 @@ MAML이 발표될 당시, MAML은 'Fast-adaptation'을 강점으로 내세우면
 <p align="center"><img width="600" src="https://user-images.githubusercontent.com/63398447/232235288-97e15b56-f1b8-462b-907f-daea8281d9fa.png"></p>
 
 Figure 3을 보면, 아래 두 가지 주요한 결과를 확인할 수 있습니다. 이를 통해 저자들은 충분히 좋은 성능을 얻기 위해서는 initialized 모델이라도 충분한 수의 update가 필요하다고 주장합니다.
-1) Training/Testing task에 관계 없이 inner-loop update 수가 늘어날수록 accuracy가 증가한다
-2) Inner-loop update 이전엔, training/testing task 관계 없이 chance level-100/N% 정도의 정확도, random prediction 수준-의 성능을 보인다.
+> 1) _Training/Testing task에 관계 없이 inner-loop update 수가 늘어날수록 accuracy가 증가한다_
+> 2) _Inner-loop update 이전엔, training/testing task 관계 없이 chance level-100/N% 정도의 정확도, random prediction 수준-의 성능을 보인다._
 
 두 번째 결과의 경우, 저자들은 few-shot task를 만들 때 각 class별로 random한 label 배정이 이유라고 해석합니다. 같은 class(개, 고양이, 새, 사자, 호랑이)를 공유하는 task라도, 새로이 배정되는 label의 permutation에 따라('개' class가 label 1을 가질 수도 있고, 5를 가질 수도 있음) task가 다른 task가 되기에 inner-loop update 없이는 random prediction이라는 설명입니다. 
 
@@ -141,9 +141,10 @@ Figure 3을 보면, 아래 두 가지 주요한 결과를 확인할 수 있습�
 ### **4.2. Explored method to make MAML Permutation-invariant**
 
 이 논문에서는 아래 3가지 간단한 방법론의 가능성에 대해 조사합니다. 직접적으로 permutation-invariant하게 만들고자 하는 방법론은 2, 3번 방법이 되겠습니다.
-1) 각 Task 별 Best permutation 탐색 (with Support set samples)
-2) Permutation 별 산출한 prediction을 ensemble
-3) 학습한 파라미터 초기값 $\mathbf{w}_ 1, \cdots, \mathbf{w}_ N$을 averaging
+> 1) 각 Task 별 Best permutation 탐색 (with Support set samples)
+> 2) Permutation 별 산출한 prediction을 ensemble
+> 3) 학습한 파라미터 초기값 $\mathbf{w}_ 1, \cdots, \mathbf{w}_ N$을 averaging
+
 
 1번 방법론은 Testing task의 Support set sample을 갖고, Accuracy/Loss value 등을 통해 best permutation을 탐색합니다. 하지만 아래 Table 1을 보면 그 어떤 방법론도 일관된 효과를 보이지 못했음을 확인할 수 있습니다.
 
@@ -151,23 +152,39 @@ Figure 3을 보면, 아래 두 가지 주요한 결과를 확인할 수 있습�
 
 이에 대해 두 가지 분석을 내놓습니다. 첫번째는 initial support accuracy/loss를 활용하는 경우는 inner-loop update 이전에 MAML로 학습한 파라미터 초기값이 chance-level prediction만을 내놓기 때문이고, 두번째로는 support set accuracy가 굉장히 빠르게 100%에 도달하여 informative하지 못하기 때문이라고 분석합니다.
 
-그렇기에 이 논문에서는 best permutation을 찾는 것이 아닌, 각 permutation의 ensemble을 시도합니다. 이때, label이 아닌 classification head $\mathbf{w}_ 1, \cdots, \mathbf{w}_ N$를 permute 하는데, 이는 label을 permute하지 않고 이렇게 하는 것이 prediction을 합치기 편리하기 때문입니다.(둘은 Equivalent)
+그렇기에 이 논문에서는 best permutation을 찾는 것이 아닌, 각 permutation의 ensemble(2번 방법)을 시도합니다. 이때, label이 아닌 classification head $\mathbf{w}_ 1, \cdots, \mathbf{w}_ N$를 permute 하는데, 이는 label을 permute하지 않고 이렇게 하는 것이 prediction을 합치기 편리하기 때문입니다.(둘은 Equivalent)
+다만 이 방법론은 permutation-invariant를 충족시키게 해주나 수많은 permutation($N=5$일 때도 무려 120가지입니다.)가짓수 만큼 prediction을 계산해줘야 하기 때문에 cost가 큰 편입니다. 따라서 단순히 Rotate함으로써 $N$가지 permutation만 고려하여 ensemble하는 'Rotated' 방법론도 아래 Table 2에서 결과를 확인할 수 있습니다.
 
 <p align="center"><img width="400" src="https://user-images.githubusercontent.com/63398447/232246040-08400f96-7be4-4eee-b80b-7e5189a404c8.png"></p>
 
+확실히 모든 세팅에서 성능 gain이 있습니다. 또한 단순 Rotation permutation만 고려해도 충분히 좋은 성능을 보입니다. 다만 Rotation만 고려한다고 해도, $N$배나 prediction을 계산해주어야 하고, 이는 분명한 단점입니다.
+
+마지막 3번 방법론은, 각 class $c$에 할당되는 classification head $\mathbf{w}_ c$를 모두, 학습된 initialization $\mathbf{w}_ 1, \cdots, \mathbf{w}_ N$의 평균값 $\sum \mathbf{w}_ i$로 다시 초기화 해주는 방법입니다. 이는 MAML의 permutation sensitivity가 결국 각기 다른 class에 대해 각기 다른 classification head 파라미터가 assign되기 때문에 기인한 것이기 때문입니다.
 
 <p align="center"><img width="300" src="https://user-images.githubusercontent.com/63398447/232246055-bc0a1795-c11e-40b9-85c0-a29b54ad6f61.png"></p>
 
-
-
-
+이렇게 해줄 경우, 별다른 계산량 증가 없이 4 세팅 중 3 세팅에서 성능 gain을 보여줍니다.
 
 
 <br/>
 
 ## **5. Proposed: Unicorn-MAML**
   
+앞의 Section의 마지막 방법론을 기반으로, 이 논문에서는 아래의 Research Question을 제기합니다.
 
+> Classification Head $\mathbf{w}_ 1, \cdots, \mathbf{w}_ N$를 initialize 하기 위해 meta-training 과정에서 단 하나의 vector $\mathbf{w}$를 학습하여 meta-training/testing phase 두 phase를 일관되게, permutation-invariant 하게 만든다면 MAML의 성능을 더 끌어올릴 수 있을까?
+
+정리하자면, MAML을 통해 학습하는 파라미터 $\theta$는 $\phi, \mathbf{w}$로 줄어들게 됩니다. 이렇게 정의된 Unicorn-MAML의 Inner-loop와 Outer-loop는 아래와 같이 수행합니다.
+
+1) **Inner-loop optimization**  
+Shared head $\mathbf{w}$를 복제하여 각 class $c$에 $\mathbf{w}_ c = \mathbf{w}$가 되도록 한 뒤, MAML과 똑같이 inner-loop optimization을 진행합니다.
+
+2) **Outer-loop optimization**  
+Update한 Classification head parameter $\theta'$을 $\phi', \mathbf{w'}_ 1, \cdots, \mathbf{w'}_ N$라 하면, 각 $\mathbf{w}_ c$에 대해 gradient를 계산해 그 average 값인 $\sum_ {c=1,\cdots N} \nabla_ {\mathbf{w}_ c} \mathcal{L}(\mathcal{Q}, \theta')$으로 task 별 gradient를 계산해줍니다. 나머지는 MAML과 같습니다.
+
+아래 Table 4를 통해, 우리는 Unicorn-MAML이 여타 State-of-the-art baseline과 비교했을 때 경쟁력 있으며, 5shot에서는 SOTA 성능을 달성함을 확인할 수 있습니다.
+
+<p align="center"><img width="600" src="https://user-images.githubusercontent.com/63398447/232250170-0ebb72ff-e2b4-413e-8763-7c05835ac38c.png"></p>
 
 
 <br/>
