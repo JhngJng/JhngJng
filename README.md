@@ -1,12 +1,13 @@
 ### Hello Everyone!!
 I'm Jihyeong Jung, a M.S. student of the Department of Industrial & Systems Engineering, KAIST👋  
 I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.ac.kr/professor/), leading [KAIST Data Science & Artificial Intelligence Lab](http://dsail.kaist.ac.kr/) currently.
+
 ### Academic Interests
 * Few-Shot/Meta Learning on Graph Structured data
-* Machine Learning on Graph Structured data
+* Graph Neural Networks via Spectral Filter Approximation (Spectral GNN)
 
 ### Education
-* Korea Advanced Institute of Science and Technology(KAIST)
+* Korea Advanced Institute of Science and Technology (KAIST)
   - **_B.S._** in Mathematical Sciences (2017.02.-2022.08.)
   - **_M.S. student_** in Industrial & Systems Engineering (2022.08.-)
 
