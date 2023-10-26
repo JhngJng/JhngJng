@@ -21,7 +21,7 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
-
+ - [Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217). <U>Jihyeong Jung</U>, Sangwoo Seo, Sungwon Kim, and Chanyoung Park. 2023. arXiv preprint.
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
