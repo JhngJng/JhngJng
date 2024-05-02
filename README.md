@@ -9,7 +9,7 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
 ### Education
 * Korea Advanced Institute of Science and Technology (KAIST)
   - **_B.S._** in Mathematical Sciences (2017.02.-2022.08.)
-  - **_M.S. student_** in Industrial & Systems Engineering (2022.08.-)
+  - **_M.S. student_** in Industrial & Systems Engineering (2022.08.-2024.08.)
 
 ### Work Experience
 * KAIST Freshmen Student Council
@@ -21,7 +21,7 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](http://dsail.kaist.a
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
- - [Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217). <U>Jihyeong Jung</U>, Sangwoo Seo, Sungwon Kim, and Chanyoung Park. 2023. arXiv preprint.
+ - [Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217). <U>Jihyeong Jung</U>, Sangwoo Seo, Sungwon Kim, and Chanyoung Park. _In the 41st International Conference on Machine Learning_, 2024.
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
