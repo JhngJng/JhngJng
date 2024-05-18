@@ -26,7 +26,8 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
- - **Jihyeong Jung**, Sangwoo Seo, Sungwon Kim, and Chanyoung Park. [Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217). _In the 41st International Conference on Machine Learning_, 2024.
+ - **Jihyeong Jung**, Sangwoo Seo, Sungwon Kim, and Chanyoung Park. [Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217). In _the 41st International Conference on Machine Learning (ICML)_, 2024.
+ - Sangwoo Seo, Sungwon Kim, **Jihyeong Jung**, Yoonho Lee, and Chanyoung Park. Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck. In _the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)_, 2024
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
