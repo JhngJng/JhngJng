@@ -6,7 +6,7 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
 ### Academic Interests
 * **Few-Shot Node Classification** (FSNC) on Graph Structured data (via Meta-learning)
 * **Time Series Analysis** (with GNN, etc.)
-* * Graph Neural Networks via Spectral Filter Approximation (Spectral GNN)
+* Graph Neural Networks via Spectral Filter Approximation (Spectral GNN)
 
 ### Education
 * [Gangneung High School](https://ganggo.gwe.hs.kr) (2014.03 ~ 2017.02)
