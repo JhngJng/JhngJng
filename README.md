@@ -4,9 +4,9 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
 
 
 ### Academic Interests
-* Few-Shot Node Classification (FSNC) on Graph Structured data (via Meta-learning)
-* Graph Neural Networks via Spectral Filter Approximation (Spectral GNN)
-* Time Series Analysis (with GNN, etc.)
+* **Few-Shot Node Classification** (FSNC) on Graph Structured data (via Meta-learning)
+* **Time Series Analysis** (with GNN, etc.)
+* * Graph Neural Networks via Spectral Filter Approximation (Spectral GNN)
 
 ### Education
 * [Gangneung High School](https://ganggo.gwe.hs.kr) (2014.03 ~ 2017.02)
@@ -23,6 +23,8 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
   - **_Advisor_** of the 15th student council _Harang_ (2018.08 ~ 2019.02)
 * [Data Science & Artificial Intelligence Lab](http://dsail.kaist.ac.kr/) (DSAIL) at KAIST
   - **_Undergraduate Intern_** (2021.06 ~ 2022.08)
+* [Sky Labs Inc.](https://www.skylabs.io/)
+  - **_ML Engineer_** (2024.05. ~ Current)
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
