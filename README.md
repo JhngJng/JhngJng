@@ -24,7 +24,7 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
 * [Data Science & Artificial Intelligence Lab](http://dsail.kaist.ac.kr/) (DSAIL) at KAIST
   - **_Undergraduate Intern_** (2021.06 ~ 2022.08)
 * [Sky Labs Inc.](https://www.skylabs.io/)
-  - **_ML Engineer_** (2024.05. ~ Current)
+  - **_Data Scientist_** (2024.05. ~ Current)
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
