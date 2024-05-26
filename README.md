@@ -1,6 +1,6 @@
 ## JIHYEONG JUNG
 I'm Jihyeong Jung, a M.S. student of the Department of Industrial & Systems Engineering, KAIST👋  
-I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.ac.kr/professor), leading [DSAIL@KAIST](https://dsail.kaist.ac.kr) currently.
+I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.ac.kr/professor), leading [DSAIL @ KAIST](https://dsail.kaist.ac.kr) currently.
 
 
 ### Academic Interests
@@ -23,8 +23,6 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
   - **_Advisor_** of the 15th student council _Harang_ (2018.08 ~ 2019.02)
 * [Data Science & Artificial Intelligence Lab](http://dsail.kaist.ac.kr/) (DSAIL) at KAIST
   - **_Undergraduate Intern_** (2021.06 ~ 2022.08)
-* [Sky Labs Inc.](https://www.skylabs.io/)
-  - **_Data Scientist_** (2024.05. ~ Current)
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
