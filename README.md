@@ -1,11 +1,11 @@
 ## JIHYEONG JUNG
 I'm Jihyeong Jung, a M.S. student of the Department of Industrial & Systems Engineering, KAIST👋  
-I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.ac.kr/professor), leading [DSAIL @ KAIST](https://dsail.kaist.ac.kr) currently.
+Currently, I'm working in [Sky Labs Inc.](https://www.skylabs.io/en) as a Data Scientist.
+I was really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.ac.kr/professor), leading [DSAIL @ KAIST](https://dsail.kaist.ac.kr) currently.
 
 
 ### Academic Interests
 * **Few-Shot Node Classification** (FSNC) on Graph Structured data (via Meta-learning)
-* **Time Series Analysis** (with GNN, etc.)
 * Graph Neural Networks via Spectral Filter Approximation (Spectral GNN)
 
 ### Education
@@ -23,11 +23,13 @@ I'm really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.
   - **_Advisor_** of the 15th student council _Harang_ (2018.08 ~ 2019.02)
 * [Data Science & Artificial Intelligence Lab](http://dsail.kaist.ac.kr/) (DSAIL) at KAIST
   - **_Undergraduate Intern_** (2021.06 ~ 2022.08)
+* [**Sky Labs Inc.**](https://www.skylabs.io/en)
+  - **_Data Scientist_** (2024.05 ~ current)
   
 ### Publications
  I'll fill this section with really **Interesting & Amazing** publications related to my research areas.
  - **Jihyeong Jung**, Sangwoo Seo, Sungwon Kim, and Chanyoung Park. [Unsupervised Episode Generation for Graph Meta-learning](https://arxiv.org/abs/2306.15217). In _the 41st International Conference on Machine Learning (ICML)_, 2024.
- - Sangwoo Seo, Sungwon Kim, **Jihyeong Jung**, Yoonho Lee, and Chanyoung Park. Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck. In _the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)_, 2024
+ - Sangwoo Seo, Sungwon Kim, **Jihyeong Jung**, Yoonho Lee, and Chanyoung Park. [Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck](https://arxiv.org/pdf/2406.13214). In _the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)_, 2024
 <!--
 **JhngJng/JhngJng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
