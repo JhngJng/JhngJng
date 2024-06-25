@@ -1,6 +1,6 @@
 ## JIHYEONG JUNG
-I'm Jihyeong Jung, a M.S. student of the Department of Industrial & Systems Engineering, KAIST👋  
-Currently, I'm working in [Sky Labs Inc.](https://www.skylabs.io/en) as a Data Scientist.
+I'm Jihyeong Jung, working in [Sky Labs Inc.](https://www.skylabs.io/en) as a Data Scientist.  
+I am also a M.S. student of the Department of Industrial & Systems Engineering, KAIST 👋  
 I was really fortuned to be advised by [Prof. Chanyoung Park](https://dsail.kaist.ac.kr/professor), leading [DSAIL @ KAIST](https://dsail.kaist.ac.kr) currently.
 
 
